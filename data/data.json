@@ -1,0 +1,24 @@
+{
+    "headers": [
+        "id",
+        "name",
+        "age"
+    ],
+    "_data": [
+        {
+            "id": "1",
+            "name": "John",
+            "age": "21"
+        },
+        {
+            "id": "2",
+            "name": "Jane",
+            "age": "22"
+        },
+        {
+            "id": "3",
+            "name": "Doe",
+            "age": "23"
+        }
+    ]
+}
