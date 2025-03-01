@@ -29,7 +29,7 @@ export class Table extends HTMLElement {
         return `
             <table>
                 <thead>
-                    <tr>${this.headers.map(header => `<th>${header}</th>`)}</tr>
+                    <tr>${this.headers.map(header => `<th>${header}</th>`).join('')}</tr>
                 </thead>
                 <tbody>
                     ${this._data.map(row => `
