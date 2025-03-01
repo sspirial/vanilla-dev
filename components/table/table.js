@@ -76,7 +76,7 @@ export class Table extends HTMLElement {
     }
 
     async loadData() {
-        const response = await fetch('/data/data.json');
+        const response = await fetch('./data/data.json');
         if (!response.ok) throw new Error('Failed to fetch data');
         const data = await response.json();
         this._data = data._data;
